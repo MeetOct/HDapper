@@ -1,0 +1,7 @@
+E:\project\HDapper\HDapper\bin\Debug\HDapper.dll
+E:\project\HDapper\HDapper\bin\Debug\HDapper.pdb
+E:\project\HDapper\HDapper\obj\Debug\HDapper.dll
+E:\project\HDapper\HDapper\obj\Debug\HDapper.pdb
+E:\project\HDapper\HDapper\obj\Debug\HDapper.csprojResolveAssemblyReference.cache
+E:\project\HDapper\HDapper\bin\Debug\Dapper.dll
+E:\project\HDapper\HDapper\bin\Debug\Dapper.xml

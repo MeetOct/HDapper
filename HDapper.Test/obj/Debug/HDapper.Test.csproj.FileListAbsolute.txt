@@ -1,0 +1,11 @@
+E:\project\HDapper\HDapper.Test\bin\Debug\HDapper.Test.dll
+E:\project\HDapper\HDapper.Test\bin\Debug\HDapper.Test.pdb
+E:\project\HDapper\HDapper.Test\bin\Debug\HDapper.dll
+E:\project\HDapper\HDapper.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\project\HDapper\HDapper.Test\bin\Debug\HDapper.pdb
+E:\project\HDapper\HDapper.Test\bin\Debug\zh-Hans\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+E:\project\HDapper\HDapper.Test\obj\Debug\HDapper.Test.csprojResolveAssemblyReference.cache
+E:\project\HDapper\HDapper.Test\obj\Debug\HDapper.Test.dll
+E:\project\HDapper\HDapper.Test\obj\Debug\HDapper.Test.pdb
+E:\project\HDapper\HDapper.Test\bin\Debug\Dapper.dll
+E:\project\HDapper\HDapper.Test\bin\Debug\Dapper.xml
