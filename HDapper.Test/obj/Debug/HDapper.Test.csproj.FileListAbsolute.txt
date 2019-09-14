@@ -9,3 +9,16 @@ E:\project\HDapper\HDapper.Test\obj\Debug\HDapper.Test.dll
 E:\project\HDapper\HDapper.Test\obj\Debug\HDapper.Test.pdb
 E:\project\HDapper\HDapper.Test\bin\Debug\Dapper.dll
 E:\project\HDapper\HDapper.Test\bin\Debug\Dapper.xml
+E:\gayhub\HDapper\HDapper.Test\bin\Debug\HDapper.Test.dll
+E:\gayhub\HDapper\HDapper.Test\bin\Debug\HDapper.Test.pdb
+E:\gayhub\HDapper\HDapper.Test\bin\Debug\HDapper.dll
+E:\gayhub\HDapper\HDapper.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\gayhub\HDapper\HDapper.Test\bin\Debug\Dapper.dll
+E:\gayhub\HDapper\HDapper.Test\bin\Debug\HDapper.pdb
+E:\gayhub\HDapper\HDapper.Test\bin\Debug\Dapper.xml
+E:\gayhub\HDapper\HDapper.Test\bin\Debug\zh-Hans\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+E:\gayhub\HDapper\HDapper.Test\obj\Debug\HDapper.Test.csprojAssemblyReference.cache
+E:\gayhub\HDapper\HDapper.Test\obj\Debug\HDapper.Test.csproj.CoreCompileInputs.cache
+E:\gayhub\HDapper\HDapper.Test\obj\Debug\HDapper.Test.csproj.CopyComplete
+E:\gayhub\HDapper\HDapper.Test\obj\Debug\HDapper.Test.dll
+E:\gayhub\HDapper\HDapper.Test\obj\Debug\HDapper.Test.pdb

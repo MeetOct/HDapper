@@ -13,7 +13,7 @@ namespace HDapper.Query
 {
 	public class HQueryProvider : IQueryProvider
 	{
-		private IDbConnection _conn = new SqlConnection("Data Source=192.168.1.2;Initial Catalog=CJZK.Product;User Id=sa;Password=sa;");
+		private IDbConnection _conn = new SqlConnection("Data Source=192.168.1.2;Initial Catalog=t_user;User Id=sa;Password=sa;");
 		public IQueryable CreateQuery(Expression expression)
 		{
 			Type et = expression.Type;
@@ -35,8 +35,10 @@ namespace HDapper.Query
 		{
 			var translator = new SqlTranslate();
 			var trans = translator.Translate(expression);
-			var elist= SqlMapper.Query(_conn, trans.Item1, trans.Item2);
-			return elist;
+            //var elist= SqlMapper.Query(_conn, trans.Item1, trans.Item2);
+            //return elist;
+            System.Diagnostics.Debug.WriteLine($"sql:{trans.Item1}");
+            return null;
 		}
 
 		/// <summary>
@@ -50,10 +52,13 @@ namespace HDapper.Query
 			var translator = new SqlTranslate();
 			var trans = translator.Translate(expression);
 
-			return SqlMapper.Query<TResult>(_conn, trans.Item1, trans.Item2).FirstOrDefault();
+            //return SqlMapper.Query<TResult>(_conn, trans.Item1, trans.Item2).FirstOrDefault();
 
-			//return default(TResult);
-			//return (TResult)this.Execute(expression);
-		}
+            System.Diagnostics.Debug.WriteLine($"sql:{trans.Item1}");
+            return default(TResult);
+
+            //return default(TResult);
+            //return (TResult)this.Execute(expression);
+        }
 	}
 }

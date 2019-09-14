@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace HDapper.Test
 {
-	[Table("[CJZK.Product].[dbo].[Auth_MemberInfo]")]
+	[Table("t_user")]
 	public class Test_Entity_User
 	{
 		public string real_name { get; set; }

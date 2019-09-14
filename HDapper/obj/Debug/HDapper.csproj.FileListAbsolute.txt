@@ -5,3 +5,12 @@ E:\project\HDapper\HDapper\obj\Debug\HDapper.pdb
 E:\project\HDapper\HDapper\obj\Debug\HDapper.csprojResolveAssemblyReference.cache
 E:\project\HDapper\HDapper\bin\Debug\Dapper.dll
 E:\project\HDapper\HDapper\bin\Debug\Dapper.xml
+E:\gayhub\HDapper\HDapper\bin\Debug\HDapper.dll
+E:\gayhub\HDapper\HDapper\bin\Debug\HDapper.pdb
+E:\gayhub\HDapper\HDapper\bin\Debug\Dapper.dll
+E:\gayhub\HDapper\HDapper\bin\Debug\Dapper.xml
+E:\gayhub\HDapper\HDapper\obj\Debug\HDapper.csprojAssemblyReference.cache
+E:\gayhub\HDapper\HDapper\obj\Debug\HDapper.csproj.CoreCompileInputs.cache
+E:\gayhub\HDapper\HDapper\obj\Debug\HDapper.csproj.CopyComplete
+E:\gayhub\HDapper\HDapper\obj\Debug\HDapper.dll
+E:\gayhub\HDapper\HDapper\obj\Debug\HDapper.pdb

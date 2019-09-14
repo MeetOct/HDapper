@@ -47,39 +47,47 @@ namespace HDapper.Translate
 
 			if (node.Method.Name == "OrderBy")
 			{
-				this.Visit(node.Arguments[0]);
-				sbSql.Append(" ORDER BY ");
+                this.Visit(node.Arguments[0]);
+                isleft = true;
+                sbSql.Append(" ORDER BY ");
 				LambdaExpression lambda = (LambdaExpression)StripQuotes(node.Arguments[1]);
 				this.Visit(lambda.Body);
 				sbSql.Append(" ASC ");
-				return node;
+                isleft = false;
+                return node;
 			}
 			if (node.Method.Name == "ThenBy")
 			{
 				this.Visit(node.Arguments[0]);
 				sbSql.Append(" , ");
-				LambdaExpression lambda = (LambdaExpression)StripQuotes(node.Arguments[1]);
+                isleft = true;
+                LambdaExpression lambda = (LambdaExpression)StripQuotes(node.Arguments[1]);
 				this.Visit(lambda.Body);
 				sbSql.Append(" ASC ");
-				return node;
+                isleft = false;
+                return node;
 			}
 			if (node.Method.Name == "OrderByDesc")
 			{
 				this.Visit(node.Arguments[0]);
-				LambdaExpression lambda = (LambdaExpression)StripQuotes(node.Arguments[1]);
+                isleft = true;
+                LambdaExpression lambda = (LambdaExpression)StripQuotes(node.Arguments[1]);
 				sbSql.Append(" ORDER BY ");
 				this.Visit(lambda.Body);
 				sbSql.Append(" DESC ");
-				return node;
+                isleft = true;
+                return node;
 			}
 			if (node.Method.Name == "ThenByDesc")
 			{
 				this.Visit(node.Arguments[0]);
-				LambdaExpression lambda = (LambdaExpression)StripQuotes(node.Arguments[1]);
+                isleft = true;
+                LambdaExpression lambda = (LambdaExpression)StripQuotes(node.Arguments[1]);
 				sbSql.Append(" , ");
 				this.Visit(lambda.Body);
 				sbSql.Append(" DESC ");
-				return node;
+                isleft = true;
+                return node;
 			}
 
 			if (node.Method.Name == "QueryFirst")

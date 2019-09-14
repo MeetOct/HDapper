@@ -51,12 +51,23 @@ namespace HDapper.Query
 
 		IEnumerator IEnumerable.GetEnumerator()
 		{
-			return ((IEnumerable)this.provider.Execute(this.exp)).GetEnumerator();
+            object enumerable=this.provider.Execute(this.exp);
+            if (enumerable == null)
+            {
+                return null;
+            }
+
+            return ((IEnumerable)enumerable).GetEnumerator();
 		}
 
 		IEnumerator<T> IEnumerable<T>.GetEnumerator()
 		{
-			return ((IEnumerable<T>)this.provider.Execute(this.exp)).GetEnumerator();
+            object enumerable = this.provider.Execute(this.exp);
+            if (enumerable == null)
+            {
+                return null;
+            }
+            return ((IEnumerable<T>)enumerable).GetEnumerator();
 		}
 	}
 
